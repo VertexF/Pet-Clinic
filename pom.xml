@@ -11,6 +11,7 @@
 	<groupId>com.springframework</groupId>
 	<artifactId>Pet-Clinic</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>Pet-Clinic</name>
 	<description>It&#39;s the Spring Pet Clinic</description>
 
@@ -72,4 +73,8 @@
 		</plugins>
 	</build>
 
+	<modules>
+		<module>Pet-Clinic-Data</module>
+		<module>Pet-Clinic-Web</module>
+	</modules>
 </project>

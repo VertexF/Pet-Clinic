@@ -1,5 +1,5 @@
 package com.springframework.PetClinic.model;
 
-public class Owner {
+public class Owner extends Person{
 
 }
